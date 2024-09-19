@@ -3,7 +3,7 @@
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  text-align: center; /* Center text */
+  text-align: center;
 }
 
 h2 {
@@ -12,11 +12,10 @@ h2 {
 }
 
 .flights-list {
-  list-style-type: none; /* Remove bullet points */
-  padding: 0; /* Remove padding */
-  display: flex; /* Use flexbox for centering */
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flight-item {
@@ -24,14 +23,15 @@ h2 {
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 15px;
-  margin: 10px 0; /* Space between items */
+  margin: 10px 0;
   transition: box-shadow 0.3s;
-  width: 80%; /* Set a width for the flight items */
-  max-width: 400px; /* Maximum width */
+  width: 80%;
+  max-width: 400px;
 }
 
 .flight-item:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
 }
 
 .clear-button,
@@ -42,12 +42,12 @@ h2 {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  margin: 10px;
+  margin-top: 20px;
   transition: background-color 0.3s;
 }
 
 .clear-button {
-  background-color: #dc3545; /* Red for clear */
+  background-color: #dc3545;
 }
 
 .clear-button:hover {
@@ -55,34 +55,26 @@ h2 {
 }
 
 .back-button {
-  background-color: #007bff; /* Blue for back */
+  background-color: #007bff;
 }
 
 .back-button:hover {
   background-color: #0056b3;
 }
+
 .flights-table {
   width: 100%;
-  border-collapse: collapse; /* Collapse borders */
-  margin-top: 20px; /* Space above the table */
+  border-collapse: collapse;
+  margin-top: 20px;
 }
 
-.flights-table th, .flights-table td {
-  border: 1px solid #ddd; /* Light gray border */
-  padding: 10px; /* Padding inside cells */
-  text-align: left; /* Align text to the left */
+.flights-table th,
+.flights-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
 }
 
 .flights-table th {
-  background-color: #f2f2f2; /* Light gray background for header */
-}
-
-.flight-item:hover {
-  background-color: #f9f9f9; /* Light background on hover */
-}
-
-.clear-button, .back-button {
-  margin-top: 20px; /* Space above buttons */
-  padding: 10px 15px; /* Padding for buttons */
-  cursor: pointer; /* Pointer cursor on hover */
+  background-color: #f2f2f2;
 }

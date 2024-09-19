@@ -1,7 +1,7 @@
 .home-container {
   padding: 20px;
   background-color: #f0f4f8;
-  text-align: center; /* Center text */
+  text-align: center;
 }
 
 h1 {
@@ -17,31 +17,31 @@ select {
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 1rem;
-  width: 200px; /* Set a width for the inputs */
+  width: 200px;
 }
 
 button {
   padding: 10px 20px;
   font-size: 1.2rem;
   color: white;
-  background-color: #007bff; /* Blue background */
+  background-color: #007bff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
-  margin: 10px; /* Add margin for spacing */
+  margin: 10px;
 }
 
 button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3;
 }
 
 .reserve-button {
-  background-color: #28a745; /* Green background for reserve button */
+  background-color: #28a745;
 }
 
 .reserve-button:hover {
-  background-color: #218838; /* Darker green on hover */
+  background-color: #218838;
 }
 
 .error-message {
@@ -50,9 +50,8 @@ button:hover {
 }
 
 .flights-list {
-  list-style-type: none; /* Remove bullet points */
-  padding: 0; /* Remove padding */
-  margin-top: 20px; /* Space above the flight list */
+  padding: 0;
+  margin-top: 20px;
 }
 
 .flight-item {
@@ -60,44 +59,47 @@ button:hover {
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 15px;
-  margin: 10px 0; /* Space between items */
-  text-align: left; /* Align text to the left for readability */
+  margin: 10px 0;
+  text-align: left;
 }
 
 p {
-  color: #666; /* Slightly lighter color for paragraph text */
+  color: #666;
   font-size: 1rem;
 }
+
 .flight-details {
   margin-top: 20px;
   padding: 15px;
   background-color: #ffffff;
   border: 1px solid #ddd;
   border-radius: 5px;
-  text-align: left; /* Align text to the left */
-}
-.flights-table {
-  width: 100%;
-  border-collapse: collapse; /* Collapse borders */
-  margin-top: 20px; /* Space above the table */
+  text-align: left;
 }
 
-.flights-table th, .flights-table td {
-  border: 1px solid #ddd; /* Light gray border */
-  padding: 10px; /* Padding inside cells */
-  text-align: left; /* Align text to the left */
+.flights-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.flights-table th,
+.flights-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
 }
 
 .flights-table th {
-  background-color: #f2f2f2; /* Light gray background for header */
+  background-color: #f2f2f2;
 }
 
 .flight-item:hover {
-  background-color: #f9f9f9; /* Light background on hover */
+  background-color: #f9f9f9;
 }
 
 .reserve-button {
-  background-color: #007bff; /* Blue background */
+  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 5px;
@@ -106,6 +108,5 @@ p {
 }
 
 .reserve-button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3;
 }
-
