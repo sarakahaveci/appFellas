@@ -1,0 +1,88 @@
+.my-flights-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center text */
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.flights-list {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.flight-item {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px 0; /* Space between items */
+  transition: box-shadow 0.3s;
+  width: 80%; /* Set a width for the flight items */
+  max-width: 400px; /* Maximum width */
+}
+
+.flight-item:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.clear-button,
+.back-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+.clear-button {
+  background-color: #dc3545; /* Red for clear */
+}
+
+.clear-button:hover {
+  background-color: #c82333;
+}
+
+.back-button {
+  background-color: #007bff; /* Blue for back */
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+.flights-table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders */
+  margin-top: 20px; /* Space above the table */
+}
+
+.flights-table th, .flights-table td {
+  border: 1px solid #ddd; /* Light gray border */
+  padding: 10px; /* Padding inside cells */
+  text-align: left; /* Align text to the left */
+}
+
+.flights-table th {
+  background-color: #f2f2f2; /* Light gray background for header */
+}
+
+.flight-item:hover {
+  background-color: #f9f9f9; /* Light background on hover */
+}
+
+.clear-button, .back-button {
+  margin-top: 20px; /* Space above buttons */
+  padding: 10px 15px; /* Padding for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+}
